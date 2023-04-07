@@ -72,6 +72,55 @@
     border-radius: 19px
 }
 
+/* Search bar styles */
+.search-container {
+    margin: 20px 0;
+  }
+  
+  #search-bar {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+    font-size: 16px;
+  }
+  
+  /* Post container styles */
+  .posts-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .post {
+    width: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Hide all posts initially */
+  .post {
+    display: none;
+  }
+  
+  /* Show only the searched post */
+  .post.show {
+    display: block;
+  }
+  
+  /* Example styles for the post content */
+  .post img {
+    width: 100%;
+  }
+  
+  .post h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .post a {
+    color: #000;
+  }
+  
 .learn-head {
     max-height: 289px;
     overflow: auto

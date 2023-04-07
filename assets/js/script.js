@@ -14,6 +14,9 @@ const addEventOnElements = function (elements, eventType, callback) {
 
 
 
+
+  
+
 /**
  * MOBILE NAVBAR TOGGLER
  */
